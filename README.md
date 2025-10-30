@@ -1,5 +1,5 @@
 
-# OctoLearn — Full Web App (React frontend + FastAPI backend)
+# OctoLearn - Full Web App (React frontend + FastAPI backend)
 
 This archive contains a ready-to-run full web app prototype: **OctoLearn**, an AI learning companion.
 
@@ -7,7 +7,7 @@ This archive contains a ready-to-run full web app prototype: **OctoLearn**, an A
 - **Frontend:** React + Vite (beautiful purple theme)
 - **Backend:** FastAPI exposing `/api/explain` and `/api/quiz` endpoints which call OpenAI
 - **Design:** Clean, purple-themed UI; responsive-ish layout
-- **Notes on OpenAI key:** I cannot provide my own API key. You **must** add your OpenAI API key to run the backend.
+- **Notes on OpenAI key:**  You **must** add your OpenAI API key to run the backend.
 
 ---
 
@@ -58,11 +58,6 @@ If your backend is not at `http://localhost:8000`, set `VITE_API_BASE` in `.env`
 
 ---
 
-## What I *didn't* do
-- I did not deploy the app to a live server (you can, using Vercel + Cloud or Render).
-- I did not connect a database for persistent progress tracking; the backend is stateless (easy to extend with Supabase/Firebase).
-
----
 
 ## Next steps / Enhancements (optional)
 - Add user accounts + persistent progress
