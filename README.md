@@ -52,10 +52,6 @@ If your backend is not at `http://localhost:8000`, set `VITE_API_BASE` in `.env`
 
 ---
 
-## Important — API Key and Security
-- I cannot and will not share a private OpenAI API key. You must create and supply your own key in `backend/.env`.
-- For production use don't expose your key in client-side code. Keep it server-side (like in this FastAPI backend).
-
 ---
 
 
@@ -65,7 +61,7 @@ If your backend is not at `http://localhost:8000`, set `VITE_API_BASE` in `.env`
 - Improve quiz parsing & scoring
 - Add animations / octopus dashboard visualization
 
-Enjoy! — If you'd like, I can now:
+Enjoy! I will now:
 - Add database support (Supabase/Firebase)
 - Add user auth
 - Create a short demo video script for your pitch
