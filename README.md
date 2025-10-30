@@ -64,4 +64,3 @@ If your backend is not at `http://localhost:8000`, set `VITE_API_BASE` in `.env`
 Enjoy! I will now:
 - Add database support (Supabase/Firebase)
 - Add user auth
-- Create a short demo video script for your pitch
